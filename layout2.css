@@ -1,0 +1,255 @@
+body{
+   padding:0px ;
+   margin:0px ;}
+h2{ 
+left:10px ;
+top :250px ;
+text-align:right  ;
+position:relative; 
+color:white;
+text-shadow:0 0 18px: black;
+}
+header{
+    background-image: url('banner.png');
+    background:rgba(255, 0, 0, 0.648)
+    height: 200px;
+}
+.container .top-right img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+        top: 50px;
+        left: 350px;
+}
+.container h1{
+    position: absolute;
+        top: 70px;
+        left: 470px;
+}
+.container{
+   max-width:1000px ;
+   margin:0 auto ;}
+.container > nav{
+line-height:40px;
+background-color:rgb(71, 31, 5);
+color:white;
+text-align:center;
+font-variant:small-caps;} 
+.container > article{
+min-height:400px;
+width:75%;
+background-color:white;
+float:left;} 
+.container > aside{  
+min-height:400px;
+width:25%;
+background-color:lightgray;
+float:right;} 
+.container > footer{  
+border-top:5px double rgb(251, 255, 0);
+line-height:50px;
+background-color:lightcyan;
+text-align:center;
+font-variant:small-caps;
+clear:both;} 
+.container > nav > a{
+color:white;
+text-decoration:none;
+margin:0 10px;} 
+.container > nav > a:hover{  
+color:yellow;
+}
+
+.menu >ul>li{ 
+display: inline-block;
+position:relative ;} 
+
+.menu ul ul{ 
+padding:0px ;
+margin:0px ;
+list-style:none ;
+border-radius:3px ;
+width:200px ;
+background-color:white ;
+box-shadow:0 0 1px gray ;
+position:absolute ;
+display: none; }
+
+.menu ul ul a { 
+line-height:30px ;
+color:orangered;
+text-decoration:none;
+font-variant:small-caps;
+font-size:larger ;
+padding:0 10px;
+display:block ;} 
+
+.menu ul ul a:hover{
+background-color:orangered ;
+color:white ;
+}
+
+.menu >ul>li:hover>ul { 
+display:block ;
+z-index: 1;
+} 
+
+.menu >ul>li>a {
+display:block ; 
+text-decoration:none ;
+font-variant: small-caps ;
+font-size:larger;
+color:white;
+padding :0 10px ;
+line-height:40px ;}
+} 
+
+.menu>ul>li>a:hover{ 
+color:yellow ; }
+
+.menu >ul{ 
+padding:0px ; 
+margin:0px;
+list-style:none;
+border-radius:3px ;
+background-color:orangered ;
+text-align:center ;}
+  
+ 
+      .menu ul li{
+         list-style: none;
+            display:inline-block;
+            position: relative;
+        }
+        .menu ul ul{
+            position: absolute;
+            display: none;
+            padding:0px;
+        margin:0px;
+        list-style:none;
+        border-radius: 3px;
+         widows: 200px;
+        background-color:red;
+         box-shadow:1px gray
+        }
+        .menu ul li:hover ul{
+            display: block;
+        }
+        .menu ul ul a{
+            display: block;
+        }
+        .menu ul li a{
+            
+            display:block;
+            color: rgb(12, 12, 12);
+            text-decoration:none;
+         font-variant:small-caps;
+         font-size:larger;
+        color:white;
+         padding:0 10px;
+         line-height:40px;
+         
+        
+        
+        }
+        
+        .menu  ul li a:hover{
+            color: yellow;
+        }
+        
+        
+        .menu{
+            background-color: rgb(5, 103, 128);
+        }
+        .menu ul{
+             padding:0px;
+         margin:0px;
+         list-style:none;
+         border-radius:3px;
+        background-color:orangered;
+        text-align:center;
+        }
+        .menu ul ul a{
+        line-height:30px ;
+         color:black ;
+         text-decoration:none ;
+         font-variant:small-caps ;
+         font-size:larger ;
+         padding:10px
+        }
+        .menu ul ul a:hover{
+           background-color: orange;
+           color: white; 
+        }
+        .col-25{
+          width: 250px;
+          float: left;
+      }
+      .pro{
+          border-radius: 10px;
+          box-shadow: 0 0 5px gray;
+          margin: 5px;
+          padding:5px;
+          text-align: center;
+          position: relative;
+      }
+      .pro>.name{
+          font-variant: small-caps;
+          color: orangered;
+          font-size: 24px ;
+          
+      }
+      .pro>.price{
+          position: absolute;
+          left:51px;
+          bottom: 5px;
+          color: tan;
+          font-size: 25px;
+          font-family: Impact : Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
+      .pro>.image{
+          max-width: 140px;
+          height: 220px;
+          margin-bottom: 90px;  
+      }
+      .pro>.icons>.image{
+          width:25px;
+      }
+      .pro>.icons{
+          position: absolute;
+          right:5px;
+          bottom:5px;
+          width:35px;
+      }
+      .pro>.new-icon{
+          position: absolute;
+          top: 0px;
+          right:0px;
+          width:25%;
+      }
+      
+
+      .vmenu{
+        padding:0px;
+        margin: 5px;
+        list-style: none;
+        border-radius: 3px;
+        box-shadow: 0 0 2px gray;
+        }
+    .vmenu a{
+        background: url('giphy.gif') no-repeat left center;
+        display: block;
+        border-bottom: 1px dotted orangered;
+        color: orangered;
+        font-variant: small-caps;
+        font-size: larger;
+        text-decoration: none;
+        padding: 10px 5px 10px 90px;
+    }
+    .vmenu a:hover{
+        background: url('giphy.gif') no-repeat left center;
+        border-bottom: 1px dotted white;
+        background-color: orangered;
+        color:black;
+        font-weight: bold;
+    }
